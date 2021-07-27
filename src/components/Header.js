@@ -4,7 +4,7 @@ import lg from '../images/lg.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
+    <div className="logo" style={{ alignSelf: 'center' }}>
       <img src={lg} alt="" />
     </div>
     <div className="content">
